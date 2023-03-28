@@ -4,7 +4,7 @@ $(document).ready(function(){
   const t3 = "this paragraph is for the GRAPHIC button this paragraph is for the GRAPHIC button this paragraph is for the GRAPHIC button this paragraph is for the GRAPHIC button this paragraph is for the GRAPHIC button this paragraph is for the GRAPHIC button this paragraph is for the GRAPHIC button"
   const t4 = "this paragraph is for the INSTRUCTOR button this paragraph is for the INSTRUCTOR button this paragraph is for the INSTRUCTOR button this paragraph is for the INSTRUCTOR button this paragraph is for the INSTRUCTOR button this paragraph is for the INSTRUCTOR button this paragraph is for the INSTRUCTOR button"
   $(".1").on('click', ()=>{
-    $(".h6").text(t1).fadeToggle()
+    $(".h6").text(t1)
   })
   $(".2").on('click', ()=>{
     $(".h6").text(t2)
